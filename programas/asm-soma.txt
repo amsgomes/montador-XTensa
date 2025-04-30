@@ -1,0 +1,9 @@
+word val1 10
+word val2 20
+word result 0
+mv a1 val1
+mv a2 val2
+add a0 a1 a2
+st a0 result
+w result
+stp
