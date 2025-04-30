@@ -1,0 +1,47 @@
+word num1 0 
+word num2 0
+word result 0
+word operador 0
+word soma 1
+word sub 2
+word mult 3
+word div 4
+word fim 5
+r operador
+mv a3 operador
+mv a1 fim
+jeq a3 a1 46
+r num1
+mv a1 num1 
+st a1 num1
+r num2 
+mv a2 num2
+mv a1 soma
+jeq a3 a1 26
+mv a1 sub
+jeq a3 a1 31
+mv a1 mult
+jeq a3 a1 36
+mv a1 div 
+jeq a3 a1 41
+mv a1 num1
+add a0 a1 a2
+st a0 result
+w result
+jmp 9
+mv a1 num1
+sub a0 a1 a2
+st a0 result
+w result
+jmp 9
+mv a1 num1
+mul a0 a1 a2
+st a0 result
+w result
+jmp 9
+mv a1 num1
+div a0 a1 a2
+st a0 result
+w result
+jmp 9
+stp
