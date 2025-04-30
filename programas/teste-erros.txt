@@ -1,0 +1,9 @@
+word num1 0
+word num1 4
+word result 0
+mv a1 num1
+mv a2 num
+ad a0 a1 a3
+st a0 result
+w result
+stp
