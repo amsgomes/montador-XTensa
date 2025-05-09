@@ -1,12 +1,12 @@
-word num1 0 
-word num2 0
-word result 0
-word operador 0
-word soma 1
-word sub 2
-word mult 3
-word div 4
-word fim 5
+num1 word 0 
+num2 word 0
+result word 0
+operador word 0
+soma word 1
+sub word 2
+mult word 3
+div word 4
+fim word 5
 r operador
 mv a3 operador
 mv a1 fim
